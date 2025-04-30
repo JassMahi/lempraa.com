@@ -1,0 +1,145 @@
+
+
+body{
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+span .image{
+    background-image: url("../images/row-bgimage-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-right: 300px;
+    background-position: center;
+
+}
+span h1{
+    
+    background-image: url("../images/contactus-banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-right: 300px;
+    background-position: center;
+    padding-bottom: 100px;
+    text-align: center;
+    padding-top: 200px;
+    font-size: 20px;
+    padding-left: 400px;
+    color: #4f0bb4;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+    background-image: url("../images/ind-brochure.png");
+
+
+}
+.contact .content{
+    max-width: 800px;
+    text-align: centeR;
+   
+    
+}
+.contact .content h2{
+    font-size: 25px;
+    font-weight: 700;
+    color: #201d1d;
+}
+.contact .content p{
+    font-weight: 300;
+    font-size: 15px;
+    color: #111010;
+}
+.container{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;   
+}
+.container .contactinfo .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+
+
+}
+.container .contactinfo .icon{
+    min-width: 1px;
+    background: rgb(31, 29, 29);
+}
+.container .contactinfo .box .text{
+    margin-left: 10px;
+    font-size: 16px;
+    color: #202020;
+    flex-direction: column;
+}
+.container .contactinfo .box .text h3{
+    font-size: 18px;
+    color: rgba(41, 38, 38, 0.753);
+}
+.contactform{
+    width: 50%;
+    padding: 40px;
+    background: #ffffff;
+}
+.contactform h2{
+    font-size: 30px;
+    font-weight: 500;
+    color: #1b1b1b;
+
+}
+.contactform .inputbox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+
+}
+.contactform .inputbox input{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+
+}
+.contactform .inputbox span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transform: 0.5s;
+    color: #666;
+
+
+}
+.contactform .inputbox input:focus ~ span,
+.contactform .inputbox input:valid ~ span
+
+{
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+.contactform .inputbox input[type="submit"]{
+    width: 150px;
+    background: #1f336e;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 18px;
+}
